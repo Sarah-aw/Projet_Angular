@@ -1,0 +1,23 @@
+<div class="flex">
+  <div class="container">
+    <li class="list-group-item w-100">
+      <div class="card" [ngStyle]="{'background-color': color()}">
+        <div class="card-body">
+            <div class="flex">
+                <h5 class="card-title">{{post.title}}</h5>
+                <span class="ml-a">{{post.created_at | date:'short'}}</span>
+            </div>
+          
+          ♡<h6 class="card-subtitle mb-2">{{post.lovesIts}}</h6>
+          <p class="card-text">{{post.content}}</p>
+          <button class="btn btn-success" (click)="loveIt()">Love it </button>
+          <button class="btn btn-danger float-r" (click)="hateIt()">Hate it</button>
+        </div>
+      </div>
+    </li>
+    
+    <!-- <canvas #canvas [width]="WIDTH" [height]="HEIGHT"></canvas> -->
+  </div>
+</div>
+  
+  
