@@ -1,0 +1,5 @@
+<mat-card-actions>
+    <button mat-button class="turn-on" (click)="turnOnAll()">Je maitrise tout</button>
+    <button mat-button class="turn-off" (click)="turnOffAll()">Je maitrise rien</button>
+</mat-card-actions>
+<app-appareil *ngFor="let dataDevice of devicesList" [deviceData]="dataDevice"></app-appareil>

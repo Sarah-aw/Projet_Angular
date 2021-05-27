@@ -1,0 +1,24 @@
+h2{ 
+    font-size: 9rem;
+    margin: 5rem;
+}
+
+h1 {
+    color: #4cc8ee;
+}
+
+div { 
+    width:fit-content;
+}
+
+:host{
+    display:grid;
+    place-items: center;
+}
+
+
+body{ 
+    padding: 0;
+    margin: auto;
+    height: 100vh;
+}

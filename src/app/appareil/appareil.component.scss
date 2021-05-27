@@ -1,0 +1,56 @@
+:host > div{ 
+    box-shadow: 0 1px 3px rgba(72, 144, 226), 0 1px 2px rgb(72, 144, 226);
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.content, .status{
+    padding: 4rem;
+    margin: 0;
+}
+div > .content{
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+div > .title{
+    font-size: 1.5rem;
+    color: #4cc8ee;
+    flex: 1;
+    place-items: center;
+}
+div > .status{
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.status.in-stock{
+    background-color: #12ac9c;
+}
+.status.not-in-stock{
+    background-color: #f1655b;
+}
+
+mat-card-actions{
+    display: grid;
+    gap: 10rem;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    margin: 0;
+}
+mat-card-actions .turn-on, 
+mat-card-actions .turn-off{
+    color: white;
+    border-radius: 50px;
+}
+mat-card-actions .turn-on{
+    background-color: #12ac9c;
+}
+mat-card-actions .turn-off{
+    background-color: #f1655b;
+}
+.status p{
+    margin: 0
+}

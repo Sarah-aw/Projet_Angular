@@ -1,0 +1,20 @@
+h1 {
+    color: #4cc8ee;
+    margin-top:30%;
+}
+
+div { 
+    width:fit-content;
+}
+
+:host{
+    display:grid;
+    place-items: center;
+}
+
+
+body{ 
+    padding: 0;
+    margin: auto;
+    height: 100vh;
+}

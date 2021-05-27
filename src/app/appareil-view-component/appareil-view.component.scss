@@ -1,0 +1,22 @@
+::ng-deep app-appareil:not(:first-child) > *{
+    margin-top: 1rem !important;
+}
+
+mat-card-actions .turn-on, 
+mat-card-actions .turn-off{
+    color: white;
+}
+mat-card-actions .turn-on{
+    background-color: #009688;
+}
+mat-card-actions .turn-off{
+    background-color: #f76e64;
+}
+
+mat-card-actions{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    margin: 0;
+}
