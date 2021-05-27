@@ -18,9 +18,9 @@ export class AppareilViewComponent implements OnInit {
   }
 
   turnOffAll(): void{
-    const isSure : boolean = window.confirm('On éteint ?');
+    const isSure : boolean = window.confirm('Tu es sûre de ne rien maîtriser ?');
     if(isSure){
-      this._deviceService.turnOnAll();
+      this._deviceService.turnOffAll();
     }
   }
   turnOnAll(): void{
