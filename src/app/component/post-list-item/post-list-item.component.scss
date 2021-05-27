@@ -5,10 +5,12 @@ button + button {
 
 h5{
     color: white;
+    size: 10rem;
 }
 
 h6{
     color: white;
+    size: 10rem;
 }
 
 span{
@@ -23,7 +25,6 @@ p{
     background-color:#12ac9c ;
     color:white;
     border-radius: 80px;
-
 }
 
 .button-cancel{
@@ -31,4 +32,10 @@ p{
     color: white;
     border-radius: 80px;
 
+}
+
+.wrapper-item{
+    border-radius: 10%;
+    margin-bottom: 20px;
+    
 }

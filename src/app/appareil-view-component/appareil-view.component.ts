@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { PostListItemComponent } from '../component/post-list-item/post-list-item.component';
 import { DeviceService } from '../model/device-service';
 import { DeviceData } from '../model/DevisData';
+import { Post } from '../model/interface/post';
 
 @Component({
   selector: 'app-appareil-view-component',

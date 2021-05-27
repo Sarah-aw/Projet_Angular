@@ -2,8 +2,8 @@
     <div class="content">
         <p class="title">{{deviceData.Name}}</p>
         <mat-card-actions>
-            <button mat-button class="turn-on" (click)="turnOn(deviceData.Name)">Je maitrise </button>
-            <button mat-button class="turn-off" (click)="turnOff(deviceData.Name)">Je ne maitrise pas</button>
+            <button mat-button class="turn-on" (click)="turnOn(deviceData.Name)">Je maitrise ✔ </button>
+            <button mat-button class="turn-off" (click)="turnOff(deviceData.Name)">Je ne maitrise pas ✖</button>
         </mat-card-actions>
     </div>
     <div class="status" [ngClass]="{'in-stock': deviceData.Status, 'not-in-stock': !deviceData.Status}">

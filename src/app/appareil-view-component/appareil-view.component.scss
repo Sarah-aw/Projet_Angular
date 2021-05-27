@@ -1,5 +1,5 @@
 ::ng-deep app-appareil:not(:first-child) > *{
-    margin-top: 1rem !important;
+    margin-top: 2rem !important;
 }
 
 mat-card-actions .turn-on, 
@@ -7,10 +7,15 @@ mat-card-actions .turn-off{
     color: white;
 }
 mat-card-actions .turn-on{
-    background-color: #009688;
+    background-color: #12ac9c;
+    border-radius: 40%;
+    margin-right: 10rem;
+    margin: 10ren;
 }
 mat-card-actions .turn-off{
     background-color: #f76e64;
+    border-radius: 40%;
+    margin: 10ren;
 }
 
 mat-card-actions{
@@ -18,5 +23,6 @@ mat-card-actions{
     gap: 2rem;
     grid-template-columns: auto auto;
     width: fit-content;
-    margin: 0;
+    margin: 10ren;
+    border-radius: 40%;
 }

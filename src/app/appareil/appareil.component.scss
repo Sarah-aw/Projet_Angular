@@ -39,17 +39,23 @@ mat-card-actions{
     grid-template-columns: auto auto;
     width: fit-content;
     margin: 0;
+    border-radius: 60%;
+    text-align:center;
 }
 mat-card-actions .turn-on, 
 mat-card-actions .turn-off{
     color: white;
-    border-radius: 50px;
+    text-align:center;
 }
 mat-card-actions .turn-on{
     background-color: #12ac9c;
+    border-radius: 40%;
+    text-align:center;
 }
 mat-card-actions .turn-off{
     background-color: #f1655b;
+    border-radius: 40%;
+    text-align:center;
 }
 .status p{
     margin: 0

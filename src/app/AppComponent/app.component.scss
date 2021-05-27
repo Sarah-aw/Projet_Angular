@@ -2,7 +2,10 @@ nav{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    box-shadow: 0 1px 5px #4cc8ee, 0 1px 5px #4cc8ee;
+    box-shadow: 0 0px 15px 2px #4cc8ee, 0 0px 2px 2px #4cc8ee;
+    border-radius: 80%;
+    overflow: hidden;
+    margin-top: 2rem;
 }
 nav > *{
     padding: 2rem 2rem;
