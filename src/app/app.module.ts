@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { ConnexionComponent } from './connexion/connexion.component';
 
 // TP2
 import { AppareilComponent } from'./appareil/appareil.component';
@@ -33,6 +35,7 @@ import { HomeComponent } from './HomeComponent/home.component';
     // TP1
     PostListItemComponent,
     PostListComponent,
+    ConnexionComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,10 @@ import { HomeComponent } from './HomeComponent/home.component';
     MatListModule,
     AppRoutingModule,
     MatMenuModule,
-    MatIconModule
+    MatIconModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

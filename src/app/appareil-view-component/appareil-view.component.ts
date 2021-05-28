@@ -25,8 +25,8 @@ export class AppareilViewComponent implements OnInit {
       this._deviceService.turnOffAll();
     }
   }
+
   turnOnAll(): void{
     this._deviceService.turnOnAll();
   }
-
 }
